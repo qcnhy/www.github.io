@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>浅唱二维码导航</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        a {
+            padding: calc(var(--input-padding) * 1.5) calc(var(--input-padding) * 3);
+            width: fit-content;
+            font-family: var(--form-font-family);
+            font-size: var(--button-font-size);
+            color: var(--button-text-color);
+            background-color: var(--button-bg-color);
+            border: none;
+            border-radius: var(--button-border-radius);
+            box-shadow: rgba(0, 0, 0, 0.05) 0 0.5rem 1rem -0.25rem;
+            transition: background-color var(--base-transition), box-shadow var(--base-transition), transition var(--base-transition);
+            margin-bottom: 15px;
+            text-decoration: none;
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+
+        a:hover,
+        a:focus {
+            cursor: pointer;
+            outline: none;
+            background-color: var(--button-focus-bg-color);
+            box-shadow: none;
+            -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <h1>浅唱二维码导航</h1>
+
+
+        <a
+            href="./friend.html">添加好友</a>
+        <a
+            href="./pay.html">普通收款</a>
+        <a
+            href="https://qr.alipay.com/fkx12712ujgfja4e57e331f">企业支付宝</a>
+        <a
+            href="./shouqianba.html">收钱吧</a>
+		<a
+            href="https://qr.95516.com/48690000/233630062296851">小米收款宝</a>
+
+    </section>
+
+    <div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+
+    </div>
+
+</body>
+
+</html>
